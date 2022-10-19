@@ -1,0 +1,43 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2639
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\froman\fcharset0 Times-Italic;\f1\froman\fcharset0 TimesNewRomanPSMT;\f2\froman\fcharset0 Times-Roman;
+}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww15600\viewh11700\viewkind0
+\deftab720
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\i\fs36 \cf2 \expnd0\expndtw0\kerning0
+Bi\'ea\uc0\u777 u di\u234 \u771 n v\u97 \u774 n ba\u777 n: 
+\f1\i0 M\uc0\u7885 \u770 t v\u97 \u774 n ba\u777 n th\'f4ng th\u117 \u795 \u417 \u768 ng \u273 \u117 \u795 \u417 \u803 c bi\'ea\u777 u di\u234 \u771 n b\u259 \u768 ng m\u7885 \u770 t v\'e9c t\u111 \u795  tro\u803 ng s\u244 \u769 , \u273 \u7885 \u770  d\'e0i cu\u777 a v\'e9c t\u111 \u795  l\'e0 s\u244 \u769  c\'e1c t\u432 \u768  kh\'f3a xu\u226 \u769 t hi\u7865 \u770 n trong \'edt nh\u226 \u769 t m\u7885 \u770 t m\u226 \u771 u d\u432 \u771  li\u7865 \u770 u hu\u226 \u769 n luy\u7865 \u770 n. Bi\'ea\u777 u di\u234 \u771 n tro\u803 ng s\u244 \u769  c\'f3 th\'ea\u777  l\'e0 nhi\u803  ph\'e2n (t\u432 \u768  kh\'f3a \u273 \'f3 c\'f3 hay kh\'f4ng xu\u226 \u769 t hi\u7865 \u770 n trong v\u97 \u774 n ba\u777 n t\u117 \u795 \u111 \u795 ng \u432 \u769 ng) ho\u7841 \u774 c kh\'f4ng nhi\u803  ph\'e2n (t\u432 \u768  kh\'f3a \u273 \'f3 \u273 \'f3ng g\'f3p ty\u777  tro\u803 ng bao nhi\'eau cho ng\u432 \u771  ngh\u105 \u771 a v\u97 \u774 n ba\u777 n). T\u244 \u768 n ta\u803 i m\u7885 \u770 t s\u244 \u769  ph\u117 \u795 \u111 \u795 ng ph\'e1p bi\'ea\u777 u di\u234 \u771 n t\u432 \u768  kho\'e1 \u273 i\'ea\u777 n h\'ecnh nh\u117 \u795  IDF, TF, TF-IDF 
+\f2 \
+
+\f1\fs34\fsmilli17333 -B\uc0\u117 \u795 \u417 \u769 c 1: Ti\u234 \u768 n x\u432 \u777  l\'fd d\u432 \u771  li\u7865 \u770 u (T\'e1ch term word, loa\u803 i bo\u777  t\u432 \u768  d\u432 \u768 ng Stopword) \
+\pard\pardeftab720\sa240\partightenfactor0
+
+\fs37\fsmilli18667 \cf2 - 
+\fs34\fsmilli17333 B\uc0\u117 \u795 \u417 \u769 c 2: Bi\'ea\u777 u di\u234 \u771 n v\u97 \u774 n ba\u777 n (tr\'edch cho\u803 n \u273 \u7841 \u774 c tr\u117 \u795 ng)\u8232 
+\fs37\fsmilli18667 - 
+\fs34\fsmilli17333 B\uc0\u117 \u795 \u417 \u769 c 3: Hu\u226 \u769 n luy\u7865 \u770 n t\u7841 \u770 p m\u226 \u771 u\u8232 
+\fs37\fsmilli18667 - 
+\fs34\fsmilli17333 B\uc0\u117 \u795 \u417 \u769 c 4: Ph\'e2n loa\u803 i v\u97 \u774 n ba\u777 n \
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f2\fs24 \cf2 \
+
+\f1\fs34\fsmilli17333 Maximum Entropy 
+\f2\fs24 \
+
+\f1\fs34\fsmilli17333 vnTokenizer 
+\f2\fs24 \
+
+\f1\fs34\fsmilli17333 Corpus Vietnamese\
+\
+1 v\uc0\u259 n b\u7843 n <-> 1 vector  + nh\'e3n\
+1 t\uc0\u7915 ,c\u7909 m t\u7915  l\'e0 1 \u273 \u7863 c tr\u432 ng\
+\
+P(Ci) = docs(nh\'e3n i)/all_docs\
+P(word|Ci) = ((count(word) in nh\'e3n i) + 1 )/ sum(diff words) + count(words in nh\'e3n i)\
+\
+find max: i:= 1 to n class( mul(P(Ci) * P(xK|Ci) * count(x in nh\'e3n i) )) in each classes -> classifier\
+}
