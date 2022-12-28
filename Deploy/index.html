@@ -136,19 +136,21 @@
                 <h1 class="mt-2">Chọn model</h1>
                 <div style="display: flex;">
                     <select class="form-select custom-select" aria-label="Default select example">
-                        <option value="SVM">Suport Vector Machine 97.79% độ chính xác</option>
-                        <option value="KNN">K-Nearest Neighbors 94.75% độ chính xác</option>
-                        <option value="NB">Naive Bayes 93.95% độ chính xác</option>
-                        <option value="LSTM">Long-Short Term Memory 94.59% độ chính xác</option>
+                        <option value="SVM">Suport Vector Machine</option>
+                        <option value="KNN">K-Nearest Neighbors</option>
+                        <option value="NB">Naive Bayes</option>
+                        <option value="LSTM">Long-Short Term Memory</option>
                     </select>
                     
                     <button type="button" class="button">
-                        <span class='button__text'>Bấm vào đây để kiểm tra</span>
+                        <span class='button__text'>Xem kết quả</span>
                     </button>
                 </div>
                 
-                <label style="color: white; font-size: 24px; margin: 18px 0; ">Kết quả nhận diện:</label>
-                <textarea class="textarea rs-detect" readonly rows="1"></textarea>
+                <div style="display: flex; margin-top: 30px;">
+                    <label style="color: white; font-size: 40px; margin: 15px 0; ">Kết quả:</label>
+                    <textarea class="textarea rs-detect" style="font-size: 30px; width: 900px;" readonly rows="1"></textarea>
+                </div>
 
            
 		</div>
