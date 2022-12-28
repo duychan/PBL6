@@ -2,7 +2,7 @@ const btn = document.querySelector(".button");
 const selectItems = document.querySelector(".custom-select")
 const rs_detect = document.querySelector(".rs-detect");
 selectItems.addEventListener("change", ()=>{
-  rs_detect.value = "cc"
+  rs_detect.value = ""
 })
 btn.addEventListener("click", async () => {
   const text = document.querySelector(".textarea")
